@@ -1,0 +1,12 @@
+# setting value
+development:
+    # 文字数判定に使用
+    "String_length":5,
+
+# debugging value
+debugging:
+    # 処理成功確認に使用する値
+    sampleString_succes:
+        "String":"あいうえお"
+    sampleString_failed:
+        "String":"ダメ"
