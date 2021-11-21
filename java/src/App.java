@@ -1,5 +1,8 @@
 import java.util.Scanner;
 import java.util.regex.Pattern;
+
+import javax.crypto.spec.IvParameterSpec;
+import javax.crypto.spec.SecretKeySpec;
 public class App {
     private static Scanner scanner = new Scanner(System.in);
     private static boolean boolean_tmp;
@@ -43,6 +46,9 @@ public class App {
             System.out.println("**********errorcode:001**********");
         }
         return result;
+    }
+    public static String encryptString(){
+        return null;
     }
 }
 
