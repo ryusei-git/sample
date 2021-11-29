@@ -1,0 +1,41 @@
+.Disable {
+    margin-top: 20px;
+  }
+  .Disable-Inner {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1080px;
+  }
+  .Disable-Inner-Headline {
+    font-weight: bold;
+    font-size: 32px;
+  }
+  .Disable-Inner-List-Item:first-child {
+    padding-top: 0px;
+  }
+  .Disable-Inner-List-Item-Title {
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+  .Disable-Inner-List-Item-LikesIcon.isDisable {
+    opacity: 0.7; /*透明度を下げる*/
+    pointer-events: none; /*クリック無効にする*/
+  }
+  .Disable-Inner-List-Item-LikesIcon-fa-heart {
+    color: #e2264d; /*赤色*/
+    font-size: 50px;
+  }
+  .Disable-Inner-List-Item-Btn {
+    border: 1px solid #e2264d;
+    border-radius: 6px;
+    width: 120px;
+    height: 40px;
+    font-size: 20px;
+  }
+  .Disable-Inner-List-Item-Text-Text {
+    margin-top: 20px;
+    width: 100%;
+    color: #e2264d;
+    font-size: 20px;
+  }

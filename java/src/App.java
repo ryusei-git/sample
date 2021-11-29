@@ -62,5 +62,14 @@ public class App {
         }
         return null;
     }
+    public static int Calc(){
+        int Num = 0;
+        // 数値を四則演算する
+        System.out.println(Num = 1+2);
+        System.out.println(Num = 1-2);
+        System.out.println(Num = 1*2);
+        System.out.println(Num = 1/2);
+        return 1;
+    }
 }
 
